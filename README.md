@@ -23,5 +23,6 @@ A simple and responsive task tracking application built with **React**. Users ca
 
 ---
 
-## 📁 Project Structure
+
+
 
