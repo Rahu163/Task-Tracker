@@ -1,0 +1,133 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 1.5rem;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.2s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #6c63ff;
+  outline: none;
+}
+
+button {
+  background: #6c63ff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background: #5b52e6;
+  transform: scale(1.02);
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: #f9f9f9;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  transition: background 0.2s ease;
+}
+
+.task:hover {
+  background: #f1f1f1;
+}
+
+.task.done span {
+  text-decoration: line-through;
+  color: #a0a0a0;
+}
+
+.task span {
+  flex: 1;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #333;
+}
+
+.task input[type="text"] {
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  border-radius: 6px;
+  flex: 1;
+}
+
+.task button {
+  margin-left: 8px;
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  background: #ff5c5c;
+  border-radius: 6px;
+}
+
+.task button:hover {
+  background: #e64747;
+}
+
+/* Filter Buttons */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.filter-buttons button {
+  background: #e2e2e2;
+  color: #333;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.filter-buttons button:hover {
+  background: #d0d0d0;
+}
+
+.filter-buttons .active {
+  background: #6c63ff;
+  color: #fff;
+}
