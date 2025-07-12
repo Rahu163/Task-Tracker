@@ -1,6 +1,6 @@
 # 📝 Task Tracker App (React)
 
-A simple and responsive task tracking application built with **React**. Users can add, delete, and mark tasks as complete. Task data is saved locally using the browser's `localStorage`.
+A simple and responsive task tracking application built with **React**. Users can add and delete. Task data is saved locally using the browser's `localStorage`.
 
 ---
 
@@ -8,7 +8,6 @@ A simple and responsive task tracking application built with **React**. Users ca
 
 - ✅ Add new tasks
 - ❌ Delete tasks
-- ✅ Mark tasks as complete/incomplete
 - 💾 Persistent data with `localStorage`
 - 🎨 Clean modern UI using plain CSS
 - ⚛️ Built with React functional components and hooks
